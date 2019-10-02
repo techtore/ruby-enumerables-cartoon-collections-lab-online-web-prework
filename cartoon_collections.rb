@@ -27,5 +27,5 @@ def find_the_cheese(array)# code an argument here
  
   array.include?(cheese) do |cheese|
     cheese == cheddar || cheese == gouda || cheese == camembert
-  
+  end
 end
