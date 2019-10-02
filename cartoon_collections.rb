@@ -25,7 +25,7 @@ def long_planeteer_calls(array)# code an argument here
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
  
-  array.include? do |cheese|
-    cheese == cheddar || cheese == gouda || cheese == camembert
+  array.include?("cheddar", "gouda", "camembert") do |cheese|
+    # cheese == cheddar || cheese == gouda || cheese == camembert
   end
 end
